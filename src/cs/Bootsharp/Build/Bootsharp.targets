@@ -1,9 +1,9 @@
 <Project>
 
     <PropertyGroup>
-        <BootsharpRoot>$(MSBuildThisFileDirectory)../</BootsharpRoot>
-        <BootsharpSourceDirectory>$(BootsharpRoot)/js</BootsharpSourceDirectory>
-        <BootsharpPublishAssembly>$(BootsharpRoot)/tasks/Bootsharp.Publish.dll</BootsharpPublishAssembly>
+        <BootsharpRoot>$(MSBuildThisFileDirectory)</BootsharpRoot>
+        <BootsharpSourceDirectory>$(BootsharpRoot)\..\js</BootsharpSourceDirectory>
+        <BootsharpPublishAssembly>$(BootsharpRoot)\..\tasks\Bootsharp.Publish.dll</BootsharpPublishAssembly>
         <BootsharpIntermediateDirectory>$(IntermediateOutputPath)bootsharp</BootsharpIntermediateDirectory>
         <BootsharpExportsFilePath>$(BootsharpIntermediateDirectory)/InteropExports.g.cs</BootsharpExportsFilePath>
         <BootsharpImportsFilePath>$(BootsharpIntermediateDirectory)/InteropImports.g.cs</BootsharpImportsFilePath>
